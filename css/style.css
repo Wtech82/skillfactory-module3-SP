@@ -15,12 +15,12 @@
 }
 
 @font-face {
-	src: url('../fonts/OpenSans-SemiBold.ttf');
+	src: url('./fonts/OpenSans-SemiBold.ttf');
 	font-family: 'OpenSans SemiBold';
 }
 
 @font-face {
-	src: url('../fonts/OpenSans-ExtraBold.ttf');
+	src: url('./fonts/OpenSans-ExtraBold.ttf');
 	font-family: 'OpenSans ExtraBold';
 }
 .body {
@@ -667,7 +667,13 @@
     .team-text {
     	margin-bottom: 0px;
     }
+    .adress-box {
+		width: 730px;
+		margin: 10px 0px;
+	}
 }
+
+
 @media screen and (max-width: 900px) {
 	.header-wrapper {
 		width: 100%;
